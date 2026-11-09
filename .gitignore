@@ -1,0 +1,65 @@
+# ── Python & Build Artifacts ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environments & Credentials ────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks & Checkpoints ───────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS & IDE Files ────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+*.numbers
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Datasets & Large Data Files (preserves sample data) ────────────────────────
+data/*
+!data/sample.csv
+dataset/
+processed/
+test_images/
+*.csv
+!data/sample.csv
+*.parquet
+
+# ── Trained Models & Checkpoints ──────────────────────────────────────────────
+models/
+*.pkl
+*.pt
+*.pth
+*.h5
+*.onnx
+*.joblib
+*.bin
+*.npy
+
+# ── Output Plots, Predictions & Logs ──────────────────────────────────────────
+outputs/
+logs/
+*.log
+
+# ── Temporary & Zip Archives ──────────────────────────────────────────────────
+*.zip
+*.tar.gz
+temp/
