@@ -187,6 +187,6 @@ matplotlib>=3.7.0
 
 ## 👤 Author
 
-**Chandramouli Kilari**  
+**Likhitha Goru**  
 MTech Student | Machine Learning Project  
 Built with Python · PyTorch · Sentence-BERT · ResNet18 · XGBoost · LightGBM · Streamlit · SHAP
